@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+          background-image: url('/Images/bg2.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>F^3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="js/common.js"></script>
+    <link rel = "stylesheet" type = "text/css" href="css/styles.css" />
+</head>
+ 
+
+<body id="body" style="overflow:scroll;">
+    <h1>
+        <img src="Images\logo.png" alt="Logo">
+    </h1>
+    <h3>
+        Connecting Contractors with Investors on the Blockchain
+    </h3>
+
+    <div class="tab">
+        <button class="tablinks" onclick="location.href='index.html';">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'Report')" id="defaultOpen">Report</button>
+    </div>
+
+    <div id="Report" class="tabcontent">
+        <img src="Images\house2.jpg" alt="House 2" class ="center" style="max-width: 40%;">
+                    
+                    <h2>2000 Sendbtc Rd. Toronto, Ontario</h2>
+                    <div><h3>Update 1:</h3>
+                        <img src="Images\update 1.jpg" alt="Update 1" style="max-width: 20%;"><br>
+                        House Extension Started<br>
+                        Expenses so far: 3500$<br>
+                        No problems yet<br>
+                    </div>
+    </div>
+
+    <button class="open-button" onclick="openForm()">Questions? Contact Us!</button>
+
+    <div class="form-popup" id="myForm">
+        <form action="#" method="post" class="form-container">
+            <h2>Contact Us</h2>
+
+            <hr>
+
+            <label for="name"><b>Full Name:</b></label>
+            <input id="name" name="name" placeholder="Name" type="text" required>
+
+            <label for="email"><b>Eth Email:</b></label>
+            <input id="email" name="email" placeholder="Email" type="text" required>
+            
+            <label for="message"><b>Relevant Information (Max 500 Chars):</b></label>
+            <textarea id="msg" name="message" placeholder="Message" maxlength="500" cols="35" rows= "10" wrap="hard" required></textarea>
+            
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    </div>
+
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
