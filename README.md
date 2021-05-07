@@ -15,10 +15,6 @@
 * Instuctions on how to run our contracts with images.
 * Deploy Frontend Dapp Website on local host
 
-### Presentation
-* Main Presentation
-* Proposal
-
 ### Contributers:
 
 * Backend - Peter Blanchard  https://github.com/peter952
