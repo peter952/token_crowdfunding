@@ -22,6 +22,6 @@
 ### Contributers:
 
 * Backend - Peter Blanchard  https://github.com/peter952
-8 Frontend - Hunter Amesbury https://github.com/hunteramesbury
+* Frontend - Hunter Amesbury https://github.com/hunteramesbury
 
 
